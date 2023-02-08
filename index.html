@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- BOX ICONS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- Favicon -->
+        <link rel="icon" href="assets/img/ImageIcon.jpg"  type="image/jpg">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <title>curriculum responsive</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav_logo">Jefferson</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home nav_icon'></i>Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#profile" class="nav_link">
+                                <i class='bx bx-user nav_icon'></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link">
+                                <i class='bx bx-book nav_icon'></i>Education
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class='bx bx-receipt nav_icon'></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">
+                                <i class='bx bx-briefcase-alt nav_icon'></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#certificate" class="nav_link">
+                                <i class='bx bx-award nav_icon'></i>Certificate
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#references" class="nav_link">
+                                <i class='bx bx-link-external nav_icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!-- HOME -->
+                    <section class="home" id="home">
+                        <div class="home_containter section bd-grid">
+                            <div class="home_data bd-grid">
+                                <img src="assets/img/JeffImage.jpg" alt="" class="home_img center">
+                                <h1 class="home_title">JEFFERSON GABRIEL</h1>
+                                <h3 class="home_profession">Web Developer</h3>
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/Muhammadessa-resume.pdf" class="home_button-movil">Download</a>
+                                </div>
+                            </div>
+                            <div class="home_address bd-grid">
+                                <span class="home_information">
+                                    <i class="bx bx-map"> &nbsp; </i> Patos, Paraíba, Brazil 
+                                </span>
+                                <span class="home_information">
+                                    <i class="bx bx-envelope"> &nbsp; </i> jeffgabriiel@gmail.com
+                                </span>
+                                <span class="home_information">
+                                    <i class="bx bx-phone"> &nbsp; </i> +55 (84) 999154756
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                        <!-- Button to generate and download the pdf. Available for desktop -->
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!-- SOCIAL -->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+                        <div class="social_container bd-grid">
+                            <a href="https://www.linkedin.com/in/jeffgabriiel/" target="_blank" class="social_link">
+                                <i class="bx bxl-linkedin-square social_icon"></i> @jeffgabriiel
+                            </a>
+                            <a href="https://github.com/jeffgabriiel/" target="_blank" class="social_link">
+                                <i class="bx bxl-github social_icon"></i> @jeffgabriiel
+                            </a>
+                            
+                        </div>
+                    </section>
+                    <!-- PROFILE -->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile_description">
+                            I am a person who is very responsible for work during the working hours 
+                            assigned by a company. I am a very goal-oriented, results-oriented, 
+                            detail-oriented and focused person.
+                        </p>
+                    </section>
+                    
+                    <!-- EDUCATION -->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education_container bd-grid">
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                </div>
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Studying Computer Science</h3>
+                                    <span class="education_studies">Universidade Estadual da Paraíba, Patos, Paraíba, Brazil</span>
+                                    <span class="education_year">2022 - Current</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- SKILLS  -->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <div class="skills_content bd-grid">
+                            <ul class="skills_data">
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> HTML
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> CSS
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> BOOTSTRAP
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> JAVASCRIPT
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>VUE.JS
+                                </li>
+                            </ul>
+                            <ul class="skills_data">
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>PHP
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>MYSQL
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>LARAVEL
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>GIT/GITHUB
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="resume__right">
+                    <!-- EXPERIENCE -->
+                    <!-- 
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="experience_container bd-grid">
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">WEB DEVELOPER</h3>
+                                    <span class="experience_company">April 2021 - Till date | <a href="https://itartificer.com/">IT Artificer</a> </span>
+                                    <p class="experience_description">
+                                        After getting some experience, I hired as <b>Jr. Web Developer</b> at <a href="https://itartificer.com/">IT Artificer</a> in April 2021. ITA serving its Services all over the world especially in middle-east. ITA mainly focusing on delivering high quality software solutions which enable customers to achieve their critical IT objectives.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                                        comentar --- <span class="experience_line"></span> 
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">FRONTEND DEVELOPER</h3>
+                                    <span class="experience_company">Nov 2020 - Dec 2020 | <a href="https://interns.pk/">Interns Pakistan</a></span>
+                                    <p class="experience_description">
+                                        As soon I graduated I selected as <b>Frontend Developer</b> at <a href="https://interns.pk/">Interns Pakistan</a> in November 2020. Interns Pakistan is a company who helping fresh graduates remotely by providing an internships. I awarded the best intern award by Interns Pakistan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    -->
+
+                    <!-- CERTIFICATES -->
+                    <section class="certificate section" id="certificate">
+                        <h2 class="section-title">Certificates</h2>
+                        <div class="certificate_container bd-grid">
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Advanced Web Development with PHP, Laravel and VueJS - 2023</h3>
+                                <p class="certificate_description">
+                                    I learned how to gain productivity in the development of advanced web applications using the Laravel framework and the PHP programming language. Also, I created skills in 
+                                    combining the Laravel framework with the Vue.JS framework for creating web applications. 
+                                    Main topics: REST WebServices API, API Authentication - JWT Authorization (JSON Web Token), 
+                                    Laravel Back-end with Vue.JS Front-end, Memory storage with Redis, Sending emails and generating XLSX, CSV and PDF files and Inclusion of the UI package with Bootstrap.</p>
+                            </div>
+                            <!--
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Program develops fullstack track oBoticario group - 2023</h3>
+                                <p class="certificate_description">
+                                    I had done detailed course with certification under Virtual University initiative in collaboration with Ministry of Information Technology Punjab, Ignite & DigiSkills.pk
+                                </p>
+                            </div>
+                            -->
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Modern Web with HTML, CSS and JavaScript - 2022</h3>
+                                <p class="certificate_description">
+                                    In this course I learned the programming paradigms used in the Modern Web: Functional, Object Oriented and component-based web applications. 
+                                    Key topics: programming basics, JavaScript, Node.js, Web, ESNext, HTML5, CSS3, Ajax, Gulp, Webpack, jQuery, Bootsrap, React, VueJS, Angular 9, 
+                                    relational database, non-relational database, Express. Several projects using these technologies, projects that simulate real applications, 
+                                    with backend and frontend to become a fullstack developer
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- REFERENCES -->
+                    <!--
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+                        <div class="references_container bd-grid">
+                            <div class="references_content bd-grid">
+                                <span class="references_subtitle">CEO IT-Artificer</span>
+                                <h3 class="references_title">Mr. Haider Ali</h3>
+                                <ul class="references_contact">
+                                    <li>Phone:  +92-333-9296314</li>
+                                    <li>Email:  thehaider@yahoo.com</li>
+                                </ul>
+                            </div>
+                            <div class="references_content bd-grid">
+                                <span class="references_subtitle">Professor</span>
+                                <h3 class="references_title">Dr. Irshad Ahmad</h3>
+                                <ul class="references_contact">
+                                    <li>Phone:  091-9222258</li>
+                                    <li>Email:  Irshad.ahmad@icp.edu.pk</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    -->
+
+                    <!-- LANGUAGES -->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+                        <div class="languages_container">
+                            <ul class="languages_content bd-grid">
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Portuguese
+                                </li>
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> English
+                                </li>
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Spanish
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- INTERESTS -->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+                        <div class="interests_container bd-grid">
+                            <div class="interests_content">
+                                <i class='bx bx-code-alt interests_icon'></i>
+                                <span class="interests_name">Coding</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class='bx bxs-music interests_icon' ></i>
+                                <span class="interests_name">Music</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class="bx bxs-plane-alt interests_icon"></i>
+                                <span class="interests_name">Traveling</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class="bx bxs-game interests_icon "></i>
+                                <span class="interests_name">Games</span>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>        
+        </main> 
+
+        <!-- SCROLL TOP -->
+            <a href="#" class="scrolltop" id="scrolltop">
+                <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+            </a>
+
+        <!-- HTML2PDF -->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+        
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+    </body> <br>
+</html>
