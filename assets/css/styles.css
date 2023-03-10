@@ -63,7 +63,7 @@ body.dark-theme{
   right: 0;
   top: 2.2rem;
   display: flex;
-  color: var(--text-color);
+  color: white;
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -132,11 +132,13 @@ body.scale-cv{
 
 .scale-cv .profile_description {
   font-size: 15px;
+  color: var(--text-color);
 }
 
 .scale-cv .home_address,
 .scale-cv .social_container{
   gap: .55rem;
+  color: var(--text-color);
 }
 
 .scale-cv .home_icon,
@@ -376,6 +378,7 @@ img {
 
 .home_address{
   gap: 1rem;
+  color: var(--text-color);
 }
 
 .home_information{
@@ -430,6 +433,7 @@ img {
 .profile_description{
   text-align: center;
   font-size: 15px;
+  color: var(--text-color);
 }
 /* EDUCATION AND EXPERIENCE */
 .education_content,
@@ -481,11 +485,13 @@ img {
 
 .education_year{
   font-size: 12px;
+  color: var(--text-color);
 }
 /* SKILLS AND LANGUAGES */
 .skills_content,
 .languages_content{
   grid-template-columns: repeat(2, 1fr);
+  color: var(--text-color);
 }
 
 .languages_content{
@@ -518,6 +524,7 @@ img {
 
 .certificate_description{
   font-size: 15px;
+  color: var(--text-color);
 }
 /* REFERENCES */
 .references_content{
@@ -624,6 +631,7 @@ img {
   .profile_description{
     text-align: initial;
     gap: 0;
+    color: var(--text-color);
   }
 
   .home__container{
@@ -646,5 +654,6 @@ img {
   .interests_container{
     grid-template-columns: repeat(4, max-content);
     column-gap: 3.5rem;
+    color: var(--text-color);
   }
 }
