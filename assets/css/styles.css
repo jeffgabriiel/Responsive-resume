@@ -49,6 +49,7 @@ html {
 
 /* Variables Dark theme */
 body.dark-theme{
+  background-color: #212121;
   --title-color: #F2F2F2;
   --text-color: #BFBFBF;
   --container-color: #212121;
@@ -63,7 +64,7 @@ body.dark-theme{
   right: 0;
   top: 2.2rem;
   display: flex;
-  color: white;
+  color: var(--text-color);
   font-size: 1.2rem;
   cursor: pointer;
 }
